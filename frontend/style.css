@@ -2,6 +2,9 @@ div {
     background-color: blue;
     height: 100vh;
     width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 div > div {
@@ -56,4 +59,22 @@ div > div > div > div > div > div > div > div > div > div {
     background-color: burlywood;
     height: 10vh;
     width: 10vh;
+}
+
+.pos-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+.pos-relative {
+    position: relative;
+}
+
+.asd1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
