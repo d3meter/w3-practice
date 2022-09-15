@@ -31,7 +31,7 @@ sumVariables("word1","word2");
 function loadEvent() {
     console.log("loaded");
     let rooteElement = document.getElementById("root");
-    rooteElement.insertAdjacentHTML("beforeend", "hello world");
+    rootElement.insertAdjacentHTML("beforeend", "hello world");
 }
 
-window.addEventListener("click", loadEvent);
+window.addEventListener("load", loadEvent);
